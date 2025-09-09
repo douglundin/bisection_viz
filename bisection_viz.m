@@ -5,7 +5,7 @@
 % Easy steps to run this demo with f(x) = x^3 - 2x - 1
 %
 % x_range = -2:0.1:4;                 % Set the x-range to be [-2, 4]
-% f = @(x) x .^ 3 - 2*x - 1           % Set function to x^3 - 2x - 1
+% f = @(x) x .^ 3 - 2 .* x - 1        % Set function to x^3 - 2x - 1
 % bisection_viz(f, -2, 4, 0.001);     % Call this function on [-2, 4]
 %
 % Demo pauses for a keypress in the Command Window after each iteration.
